@@ -1,0 +1,25 @@
+.card {
+  height: 300px;
+  width: 200px;
+  border-radius: 8px;
+  background-color: white;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 1px -1px 17px -6px rgba(0, 0, 0, 0.75);
+}
+
+.card:hover {
+  scale: 1.03;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
