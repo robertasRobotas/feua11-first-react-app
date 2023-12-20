@@ -1,9 +1,9 @@
 import styles from "./header.module.css";
 
-const Header = () => {
+const Header = ({ appName }) => {
   return (
     <header className={styles.header}>
-      <div>Trip App</div>
+      <div>{appName ? <>{appName}</> : <>no app name</>}</div>
       <nav className={styles.nav}>
         <ul>
           <li>

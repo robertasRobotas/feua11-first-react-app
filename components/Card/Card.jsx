@@ -1,10 +1,10 @@
 import styles from "./styles.module.css";
 
-const Card = () => {
+const Card = ({ imgUrl, title }) => {
   return (
     <div className={styles.card}>
-      <img src="https://traveler.marriott.com/wp-content/uploads/2022/02/Crete-Greece-545660058.jpg" />
-      <h3>Crete</h3>
+      <img src={imgUrl} />
+      <h3>{title}</h3>
     </div>
   );
 };
